@@ -1,0 +1,175 @@
+/* font */
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* no scrollbars, just a full-screen page */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* file drag and drop zone */
+#dropZone {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+/* nothing selectable */
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#progressBar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    z-index: 1;
+}
+
+#videoInput {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    z-index: 1;
+}
+
+#output {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 1;
+}
+
+/* progress bar */
+#progressBar {
+    height: 10px;
+}
+
+/* custom button */
+.link-btn {
+    padding: 11px 20px;
+    display: block;
+    border: 3.5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20em;
+    transition: transform 0.17s ease-in-out, 
+                box-shadow 0.17s ease-in-out,
+                background-color 0.3s ease, 
+                color 0.3s ease;
+    box-shadow: 9px 9px 0px rgba(0, 0, 0, 1);
+    will-change: transform, box-shadow;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
+}
+.link-btn:hover {
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    color: white;
+}
+.link-btn, .link-btn:hover {
+    text-decoration: none !important;
+}
+
+/* upload button */
+.link-btn.upload {
+    background-color: #ff26d4;
+    bottom: calc(0vh + 5em);
+    color: rgb(0, 0, 0);
+}
+.link-btn.upload:hover {
+    transform: translateX(calc(-50% + 5px)) translateY(5px);
+    color: rgb(255, 255, 255);
+}
+
+/* download button */
+.link-btn.download {
+    background-color: #08edf0;
+    bottom: calc(0vh + 8.5em);
+    color: rgb(0, 0, 0); 
+}
+.link-btn.download:hover {
+    transform: translateX(calc(-50% + 5px)) translateY(5px);
+    color: rgb(255, 255, 255);
+}
+.local-text {
+    position: fixed;
+    text-align: center;
+    bottom: calc(0vh + 2em);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* dialog */
+#dialog-image {
+    position: fixed;
+    top: 10em;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
+    max-height: calc(100% - 25em);
+    width: 40em;
+    height: auto;
+    pointer-events: none;
+    min-width: 20em;
+    min-height: 20em;
+    object-fit: contain;
+}
+
+/* desktop */
+@media (max-width: 767px) {
+    #dialog-image, .button-container {
+        display: none;
+    }
+}
+
+/* mobile */
+.mobile-container {
+    position: fixed;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3em;
+    pointer-events: none;
+    width:80%;
+}
+.url {
+    pointer-events:all;
+}
+@media (max-width: 767px) {
+    .mobile-container {
+        display: block;
+    }
+}
+.ps-logo-image {
+    width:50%;
+    height: auto;
+    pointer-events: none;
+}

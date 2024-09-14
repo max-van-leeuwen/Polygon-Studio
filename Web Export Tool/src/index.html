@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐬 Polygon Studio ✨</title>
+</head>
+<body>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="./index.css" rel="stylesheet">
+    <script src="./index.js" type="module"></script>
+
+    <input type="file" id="videoInput" accept="video/*" style="display: none;"> <!-- hidden because custom button triggers this one -->
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="output"></div>
+    <div>
+
+    <!-- drag-and-drop canvas -->
+    <div id="dropZone"></div>
+
+    <!-- dialog box -->
+    <img id="dialog-image" src="./Dialog.webp" alt="Image">
+
+    <!-- mobile contents -->
+    <div class="mobile-container">
+        <img src="./PS_logo.webp" class="ps-logo-image" alt="Polygon Studio logo">
+        <br><br>
+        <h1>Use this converter tool on a computer! 💻</h1>
+        <p class="url">Back to <a href="https://www.maxandliisi.com/polygon-studio" target="_blank">maxandliisi.com/polygon-studio</a>.</p>
+    </div>
+
+    <!--  custom upload button -->
+    <div class="button-container">
+        <a href="javascript:void(0)" id="uploadBtn" class="link-btn upload">🕶️ Pick Spectacles recording</a>
+        <a href="javascript:void(0)" id="downloadBtn" class="link-btn download">💾 Download 3D file!</a>
+        <p class="local-text">files are processed locally, not uploaded</p>
+    </div>
+    <script>
+    document.getElementById('uploadBtn').addEventListener('click', function(event){
+        document.getElementById('videoInput').click(); // trigger file picker
+    });
+    document.getElementById('downloadBtn').addEventListener('click', function(event){
+        const textContent = window.plyString; // get from index.js
+        const fileName = "3D Model.ply";
+        const blob = new Blob([textContent], { type: 'text/plain' });
+
+        // create a link element
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link); // clean up
+    });
+    </script>
+    
+</body>
+</html>

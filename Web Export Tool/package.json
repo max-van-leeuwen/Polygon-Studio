@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.js",
+  "scripts": {
+    "cleanCache": "rm -rf .parcel-cache/*",
+    "cleanDist": "rm -rf dist/*",
+    "test": "npm run cleanCache && npm run cleanDist && npx parcel ./src/index.html",
+    "build": "npm run cleanCache && npm run cleanDist && parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [],
+  "author": "Max van Leeuwen",
+  "license": "ISC",
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "three": "^0.133.0"
+  }
+}
