@@ -1,0 +1,85 @@
+- !<ObjectPrefab/09641170-e9fc-4f71-ab11-a3eebbe46c85>
+  PackagePath: ""
+  objects:
+    - !<own> 44d14522-e8b9-4b9b-b1cb-1d9fff0d2445
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/42b92609-375d-465e-8a0e-c3c15599040a>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bdf54bd9-d565-4175-99e7-8cdb50c26f07
+  Mesh: !<reference> df048d63-11b0-47d6-b5d0-2ece415df4ba
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    Pinch: 0.000000
+    Z depth: 1.000000
+- !<SceneObject/44d14522-e8b9-4b9b-b1cb-1d9fff0d2445>
+  PrefabRemaps:
+    []
+  Name: container-button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.935684, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 42b92609-375d-465e-8a0e-c3c15599040a
+    - !<own> cc436694-b043-4aaa-a862-c7ce7b296085
+    - !<own> 70adac74-4f53-468b-881e-86d65c8a325e
+- !<ScriptComponent/70adac74-4f53-468b-881e-86d65c8a325e>
+  PrefabRemaps:
+    []
+  Name: PinchButton
+  Enabled: true
+  ScriptAsset: !<reference> ba8e0214-c470-49c4-8b15-49f78bdc2d02
+  ScriptInputsDefault:
+    editEventCallbacks: true
+    customFunctionForOnButtonPinched: true
+    onButtonPinchedFunctionNames: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editEventCallbacks: false
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onButtonPinchedFunctionNames: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/cc436694-b043-4aaa-a862-c7ce7b296085>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 323bff43-5547-4e04-94a4-3dd77610dc09
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}

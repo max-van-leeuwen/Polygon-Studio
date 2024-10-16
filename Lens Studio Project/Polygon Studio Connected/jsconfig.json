@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "commonjs",
+        "lib": [
+            "ES2019"
+        ],
+        "baseUrl": "Assets/",
+        "paths": {
+            "*": [
+                "*",
+                "Modules/*"
+            ]
+        }
+    },
+    "include": [
+        "**/*.js",
+        "**/*.d.ts"
+    ]
+}

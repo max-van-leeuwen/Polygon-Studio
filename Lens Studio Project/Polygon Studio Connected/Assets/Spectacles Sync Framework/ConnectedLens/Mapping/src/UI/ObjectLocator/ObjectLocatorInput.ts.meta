@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/0af85bc6-6d71-49a2-86b0-fb8b288b8e25>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6d126111-935e-4063-bb67-cd69e3272474
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6d126111-935e-4063-bb67-cd69e3272474
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8a57b5b5-4df8-479a-8f56-f19f315b2093
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d86fee8a-77b5-4aae-ba0d-72d69ea37f63>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8a57b5b5-4df8-479a-8f56-f19f315b2093>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    arrow: false
+    hintRoot: false
+    hintText: false
+    root: false
+    scalingInTime: false
+    scalingOutTime: false
+    startPointObject: false
+    startPointRoot: false
+    teachingText: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      startPointRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arrow: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      startPointObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      teachingText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      scalingInTime: 0.300000
+      scalingOutTime: 0.300000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject root
+    - // @input SceneObject hintRoot
+    - // @input SceneObject startPointRoot
+    - // @input Component.RenderMeshVisual arrow
+    - // @input SceneObject startPointObject
+    - // @input Component.Text hintText
+    - // @input Component.Text teachingText
+    - '// @input float scalingInTime = "0.3" {"hint":"Time in seconds for scaling the object locator In"}'
+    - '// @input float scalingOutTime = "0.3" {"hint":"Time in seconds for scaling the object locator Out"}'

@@ -1,0 +1,37 @@
+- !<AssetImportMetadata/fdbf8a51-6b69-4ebd-98d4-6e90ab5c71b6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 221b681a-dde6-4fd0-9af4-0b4a465ce490
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 221b681a-dde6-4fd0-9af4-0b4a465ce490
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 51cda0e3-8679-4644-b655-7d0b56a9cd9a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/39778c03-1990-4e13-a3ec-bbb9054021d3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/51cda0e3-8679-4644-b655-7d0b56a9cd9a>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    meshRenderer: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - maxAndLiisi: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      meshRenderer: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      worldScene: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      meshRendererSync: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

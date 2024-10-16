@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/722aa4e3-d654-461e-a32d-3394c950f478>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b3b449c7-6be3-400a-95f3-229b7789ced0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b3b449c7-6be3-400a-95f3-229b7789ced0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 940905a6-b0d5-4dd8-b260-8227e543cfbf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/165ce062-f08a-4047-afc9-5665f298f425>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/940905a6-b0d5-4dd8-b260-8227e543cfbf>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - deleteFaceSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      vertexGrabSound: !<reference.AudioTrackAsset[]>
+        []
+      vertexReleaseSound: !<reference.AudioTrackAsset[]>
+        []
+      vertexSnapSound: !<reference.AudioTrackAsset[]>
+        []
+      deleteFaceAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      vertexGrabAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      vertexReleaseAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

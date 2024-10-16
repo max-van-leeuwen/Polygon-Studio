@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/63a647a6-a387-4041-9534-82fbf76c9cda>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7df14fcb-f845-4da9-b527-da03eb782fc4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7df14fcb-f845-4da9-b527-da03eb782fc4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> b8d28757-35f7-4ec5-aec3-3c659a2a5f03
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a79d1c10-6d98-4c32-a44b-8f184828630e>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b8d28757-35f7-4ec5-aec3-3c659a2a5f03>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    center: false
+    centerText: false
+    dialog: false
+    left: false
+    leftText: false
+    meshPreview: false
+    right: false
+    rightText: false
+    rmv: false
+    text: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - dialog: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      text: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      yes: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      no: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      left: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      right: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      rightText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      centerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      rmv: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      meshPreview: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

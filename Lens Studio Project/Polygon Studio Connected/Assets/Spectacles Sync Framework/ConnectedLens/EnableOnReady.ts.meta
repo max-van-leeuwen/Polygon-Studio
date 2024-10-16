@@ -1,0 +1,37 @@
+- !<AssetImportMetadata/cbfd29fb-572d-4eaa-8425-d89c980c307a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fe56a943-f286-4a74-b9e8-2c0ed855e293
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fe56a943-f286-4a74-b9e8-2c0ed855e293
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> f8357db5-52f9-4e2c-8917-904571c9fd8f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d214f517-26be-45bf-becb-d45583428386>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f8357db5-52f9-4e2c-8917-904571c9fd8f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    nodesToEnable: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - nodesToEnable: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] nodesToEnable"

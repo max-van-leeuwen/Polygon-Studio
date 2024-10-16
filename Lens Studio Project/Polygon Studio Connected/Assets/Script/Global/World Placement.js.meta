@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/8bcc3e9f-57a1-4428-825c-f574f1adf1eb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4fabd852-b5de-4fea-b2a4-ea225e10d321
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4fabd852-b5de-4fea-b2a4-ea225e10d321
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> a279b90b-f624-4fe6-bd10-8dafe3475319
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/63922cd8-a4a8-4c59-b950-15791ee4f357>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a279b90b-f624-4fe6-bd10-8dafe3475319>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    defaultCameraObject: false
+    defaultDistanceFromCamera: false
+    defaultDuration: false
+    defaultHeight: false
+    defaultSpherical: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - defaultCam: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      defaultHeight: !<float> -30.000000
+      defaultDistanceFromCamera: !<float> 100.000000
+      defaultDuration: 0.400000
+      defaultSpherical: false
+      rankedPriority: !<float> 100.000000
+      defaultCameraObject: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,171 @@
+- !<ObjectPrefab/6e289dd6-6f6b-4daa-84e6-14a921e01005>
+  PackagePath: ""
+  objects:
+    - !<own> af5717f8-5784-48e1-b4ea-de80cfdfb4d7
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/2f797ad8-144b-4914-be7b-e650427d0b1f>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+    FitVisual: false
+    Size: {x: 14.000000, y: 5.000000, z: 5.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/6f783563-62de-4baa-8e39-55d1a5ec8dc5>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 59593d45-b5fc-49c0-af22-a2a55c7fbcfb
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/707943b7-6228-47d1-82c4-4f62aa5701a4>
+  PrefabRemaps:
+    []
+  Name: PinchButtonSystemUI
+  Enabled: true
+  ScriptAsset: !<reference> b23fe845-bf08-411f-8db3-378e2f2293d9
+  ScriptInputsDefault:
+    maxBlendShapeWeight: true
+    glowRenderMeshVisual: true
+    meshBlendshapeName: true
+    meshWeights: true
+    meshIdle: true
+    meshHover: true
+    meshTriggered: true
+    glowBlendshapeName: true
+    glowWeights: true
+    glowIdle: true
+    glowHover: true
+    glowTriggered: true
+    useAnimations: true
+    animationMixer: true
+    animationLayerName: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      renderMeshVisual: !<reference.RenderMeshVisual> 90d4874a-d615-435c-a370-41806cc1263d
+      maxBlendShapeWeight: !<float> 1.000000
+      useGlowMesh: false
+      glowRenderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      meshBlendshapeName: Pinch
+      meshWeights: false
+      meshIdle: !<float> 0.000000
+      meshHover: 0.330000
+      meshTriggered: 0.660000
+      glowBlendshapeName: Pinch
+      glowWeights: false
+      glowIdle: !<float> 0.000000
+      glowHover: 0.330000
+      glowTriggered: 0.660000
+      useAnimations: false
+      animationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animationLayerName: BaseLayer
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/90d4874a-d615-435c-a370-41806cc1263d>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a4f91196-ae69-4d35-9f8f-849632f6ab56
+  Mesh: !<reference> f292d46a-1e5d-4d09-9bbd-6a456154a6e6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: false
+  BlendNormals: false
+  BlendShapes:
+    Pinch: 1.000000
+- !<SceneObject/af5717f8-5784-48e1-b4ea-de80cfdfb4d7>
+  PrefabRemaps:
+    []
+  Name: Close_button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.119690, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.036778, y: 1.036800, z: 0.602627}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 90d4874a-d615-435c-a370-41806cc1263d
+    - !<own> 2f797ad8-144b-4914-be7b-e650427d0b1f
+    - !<own> 6f783563-62de-4baa-8e39-55d1a5ec8dc5
+    - !<own> da3433c7-cd01-47cc-95a3-312a431e8ffe
+    - !<own> d39ac98d-fc16-475b-a64a-9d005b9f863b
+    - !<own> 707943b7-6228-47d1-82c4-4f62aa5701a4
+- !<ScriptComponent/d39ac98d-fc16-475b-a64a-9d005b9f863b>
+  PrefabRemaps:
+    []
+  Name: PinchButton
+  Enabled: true
+  ScriptAsset: !<reference> e0acee0a-04c3-454c-84fb-5609500695f5
+  ScriptInputsDefault:
+    editEventCallbacks: true
+    customFunctionForOnButtonPinched: true
+    onButtonPinchedFunctionNames: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editEventCallbacks: false
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onButtonPinchedFunctionNames: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/da3433c7-cd01-47cc-95a3-312a431e8ffe>
+  PrefabRemaps:
+    []
+  Name: InteractableAudioFeedback
+  Enabled: true
+  ScriptAsset: !<reference> a351e6c2-7fbc-4f25-99aa-2d9391bc62d8
+  ScriptInputsDefault:
+    hoverAudioTrack: true
+    triggerStartAudioTrack: true
+    triggerEndAudioTrack: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      hoverAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      triggerStartAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      triggerEndAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}

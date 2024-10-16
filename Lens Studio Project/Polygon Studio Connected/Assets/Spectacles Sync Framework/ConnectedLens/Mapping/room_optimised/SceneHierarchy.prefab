@@ -1,0 +1,76 @@
+- !<ObjectPrefab/c1ab008c-7b0c-4a4b-aa1f-179a2387794d>
+  PackagePath: ""
+  objects:
+    - !<own> c4f7c785-008b-4916-ad67-4239300ae858
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/2e766971-5efc-461d-b022-f99e8fec1988>
+  PrefabRemaps:
+    []
+  Name: room_all
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8761e6c8-213b-4b93-92b3-626642bc67b7
+- !<AnimationPlayer/5a24b318-d02d-4a47-bb8e-df05d4b84d5b>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 83e803e8-f589-4b21-aed4-fd9b6bceb042
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/8761e6c8-213b-4b93-92b3-626642bc67b7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 98676bd9-5e24-4050-9939-ae2cdad285a3
+  Mesh: !<reference> 7687f1d3-ca30-4880-b88e-c44ff04a3c68
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c4f7c785-008b-4916-ad67-4239300ae858>
+  PrefabRemaps:
+    []
+  Name: room_optimised
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000031, y: 0.000000, z: 0.000015}
+    rotation: {x: -0.000002, y: 0.000003, z: 0.000005}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2e766971-5efc-461d-b022-f99e8fec1988
+  Components:
+    - !<own> 5a24b318-d02d-4a47-bb8e-df05d4b84d5b

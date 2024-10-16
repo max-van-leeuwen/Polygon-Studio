@@ -1,0 +1,11 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 46040a7e-5090-4543-a964-c0a10aa5dd6d: /Users/max/Desktop/Longer Audio/New/Tick/Sound 13.mp3
+    - 85fcfda7-8bdc-4065-82a0-0de0f7f9ef2c: /Users/max/Downloads/URL.jpg
+    - d08236ea-faea-4d2a-9c43-835adefadfef: /Users/max/Desktop/Longer Audio/New/Tick/Sound 30.mp3
+    - e20e2059-5674-402c-b32e-b37435d6f044: /Users/max/Desktop/Longer Audio/New/Tick/Sound 19.mp3
+    - e2efabf1-0931-42de-8da7-4598d348bc8a: /Users/max/Desktop/Longer Audio/New/Tick/Sound 25.mp3
+    - eab739a6-d62b-44a1-8153-247d1c3cb0b6: /Users/max/Desktop/Longer Audio/New/Tick/Sound 01.mp3
+    - ec00baf3-ce19-4ebc-ba4c-12d3a72e1c9e: /Users/max/Desktop/Longer Audio/New/Tick/Sound 07.mp3
+  options: 4

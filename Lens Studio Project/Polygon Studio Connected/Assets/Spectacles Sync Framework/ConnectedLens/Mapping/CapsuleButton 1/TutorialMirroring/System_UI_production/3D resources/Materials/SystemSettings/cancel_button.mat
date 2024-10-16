@@ -1,0 +1,164 @@
+- !<Material/a4f91196-ae69-4d35-9f8f-849632f6ab56>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 8ec751dd-1d74-4760-87e6-26c6ef81d843
+- !<PassInfo/8ec751dd-1d74-4760-87e6-26c6ef81d843>
+  DepthWrite: true
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N002:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Exponent_N031:
+      typeIdx: 1
+      value: 1.000000
+    Port_Import_N006:
+      typeIdx: 1
+      value: 0.500000
+    Port_Import_N049:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Import_N062:
+      typeIdx: 1
+      value: 0.400000
+    Port_Import_N068:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Input1_N009:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input1_N034:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.873198, z: 0.239216, w: 1.000000}
+    Port_Input1_N053:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N073:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input2_N009:
+      typeIdx: 3
+      value: {x: -0.500000, y: -0.500000}
+    Port_Input2_N053:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input2_N073:
+      typeIdx: 1
+      value: 0.500000
+    Port_Intensity_N031:
+      typeIdx: 1
+      value: 1.000000
+    Port_Normal_N031:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Position1_N007:
+      typeIdx: 1
+      value: 0.240000
+    Port_Position1_N021:
+      typeIdx: 1
+      value: 0.330000
+    Port_Position1_N136:
+      typeIdx: 1
+      value: 0.330000
+    Port_Position2_N007:
+      typeIdx: 1
+      value: 0.700000
+    Port_Position2_N021:
+      typeIdx: 1
+      value: 0.660000
+    Port_Position2_N136:
+      typeIdx: 1
+      value: 0.660000
+    Port_Scale_N002:
+      typeIdx: 3
+      value: {x: 2.000000, y: 7.000000}
+    Port_Value0_N007:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Port_Value1_N007:
+      typeIdx: 5
+      value: {x: 0.050004, y: 0.050004, z: 0.050004, w: 1.000000}
+    Port_Value2_N007:
+      typeIdx: 5
+      value: {x: 0.504799, y: 0.520943, z: 0.545144, w: 1.000000}
+    Port_Value3_N007:
+      typeIdx: 5
+      value: {x: 0.212497, y: 0.220005, z: 0.250004, w: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    PreviewNodeID:
+      typeIdx: 0
+      value: -1
+    additional_setting_btn_icon_tex:
+      typeIdx: 9
+      value:
+        id: d09e3710-3a26-46a8-8e7a-efb757f2903e
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+    additional_setting_btn_icon_texBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    additional_setting_btn_icon_texDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    additional_setting_btn_icon_texTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    additional_setting_btn_icon_texUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    additional_settings_btn_refl_tex:
+      typeIdx: 9
+      value:
+        id: d838fe78-9926-4e2c-9d26-cec28dbbad95
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+    additional_settings_btn_refl_texBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    additional_settings_btn_refl_texDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    additional_settings_btn_refl_texTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    additional_settings_btn_refl_texUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    alpha:
+      typeIdx: 1
+      value: 1.000000
+    status:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> 7e265846-49e4-42ad-be1b-4a29439f6996

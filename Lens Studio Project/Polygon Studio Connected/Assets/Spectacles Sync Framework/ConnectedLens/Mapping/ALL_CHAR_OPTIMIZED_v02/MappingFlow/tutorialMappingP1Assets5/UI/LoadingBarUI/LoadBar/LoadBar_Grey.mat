@@ -1,0 +1,80 @@
+- !<Material/9805b355-ed82-486a-8a46-600c4bcbae48>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> af0fce4d-fbe5-48fe-a83e-5b87e661c12f
+- !<PassInfo/af0fce4d-fbe5-48fe-a83e-5b87e661c12f>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    Port_Import_N052:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Import_N059:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N060:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N062:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N058:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: -1.000000}
+    Port_Input1_N070:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N075:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N083:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Value2_N003:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N1:
+      typeIdx: 9
+      value:
+        id: 0ecce79e-50af-4883-8aa9-9ef5f594fe86
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    Tweak_N1BorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N1Dims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N1Transform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Tweak_N1UvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.192157, y: 0.192157, z: 0.192157, w: 0.560784}
+  Pass: !<reference> a0b47321-dbf4-4611-bc95-79f4e310c713

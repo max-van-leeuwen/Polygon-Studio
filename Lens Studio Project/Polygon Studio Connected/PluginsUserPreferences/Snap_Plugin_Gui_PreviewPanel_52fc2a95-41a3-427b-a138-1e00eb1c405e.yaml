@@ -1,0 +1,65 @@
+backCameraMultimedia:
+  type: string
+  value: /Applications/Lens Studio 5.0.12 Internal ARM.app/Contents/MacOS/../Resources/PreviewResources.bundle/Video/World/Beach.mp4
+  options: 4
+cameraType:
+  type: int
+  value: 0
+  options: 4
+customSources:
+  type: "std::vector<Es::Path>"
+  value:
+    size: 0
+  options: 4
+deviceType:
+  type: string
+  value: Unknown
+  options: 4
+frameRate:
+  type: int
+  value: 60
+  options: 4
+frontCameraMultimedia:
+  type: string
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
+  options: 4
+fullscreenSpectaclesSimulation:
+  type: bool
+  value: true
+  options: 4
+lastPosition:
+  type: vec3
+  value: {x: 0.000000, y: 0.000000, z: 0.000000}
+  options: 4
+lastRotation:
+  type: vec3
+  value: {x: 0.000000, y: 0.000000, z: 0.000000}
+  options: 4
+mirrorHorizontally:
+  type: bool
+  value: false
+  options: 4
+previewSource:
+  type: string
+  value: /Applications/Lens Studio 5.0.12 Internal ARM.app/Contents/MacOS/../Resources/InteractiveResources.bundle/Scenes/Sunlit Room
+  options: 4
+previewType:
+  type: string
+  value: Interactive
+  options: 4
+recordInput:
+  type: bool
+  value: false
+  options: 4
+recordTrackingData:
+  type: bool
+  value: false
+  options: 4
+simulatedDevice:
+  type: string
+  value: Spectacles (2021)
+  options: 4
+stereoEye:
+  type: string
+  value: 1
+  options: 4

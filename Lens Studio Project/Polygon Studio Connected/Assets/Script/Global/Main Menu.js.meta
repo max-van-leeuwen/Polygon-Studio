@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/18aed90b-d967-4492-9b9d-82095d771edb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 166482c5-f2f1-4e4a-bedd-925a4190d1b3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 166482c5-f2f1-4e4a-bedd-925a4190d1b3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> f8a1f484-5940-4742-b401-00674875945c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/c1afdba6-756e-4eff-a3e2-ab8d53d9af81>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f8a1f484-5940-4742-b401-00674875945c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    buttonTemplate: false
+    buttonsParent: false
+    cam: false
+    ctaText: false
+    logoTransform: false
+    plasticTemplate: false
+    plate: false
+    saveSlots: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - buttonTemplate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainHighlightSound: !<reference.AudioTrackAsset[]>
+        []
+      mainPressSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      deleteHighlightSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      deletePressSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      exportHighlightSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      exportPressSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      saveSlots:
+        []
+      logoTransform: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      plate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      buttonsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      plasticTemplate: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      cam: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      ctaText: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

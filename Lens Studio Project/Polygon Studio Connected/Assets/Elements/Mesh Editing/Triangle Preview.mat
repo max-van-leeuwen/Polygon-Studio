@@ -1,0 +1,79 @@
+- !<Material/84783db7-45d1-4f29-9353-08f78e5cab49>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> c8fbe22e-cd64-493a-b193-c966020711c9
+- !<PassInfo/c8fbe22e-cd64-493a-b193-c966020711c9>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N000:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Default_N094:
+      typeIdx: 1
+      value: 1.000000
+    Port_Emissive_N000:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Import_N083:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N086:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N099:
+      typeIdx: 1
+      value: 2.000000
+    Port_Multiplier_N002:
+      typeIdx: 1
+      value: 15.000000
+    Port_Multiplier_N105:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N005:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N005:
+      typeIdx: 1
+      value: 0.900000
+    Port_RangeMinA_N005:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N005:
+      typeIdx: 1
+      value: 0.700000
+    Port_Value_N084:
+      typeIdx: 1
+      value: 0.000100
+    Port_Value_N110:
+      typeIdx: 1
+      value: 0.200000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    snapToGridAnimDuration:
+      typeIdx: 1
+      value: 1.000000
+    snapToGridAnimTime:
+      typeIdx: 1
+      value: 1.000000
+  Pass: !<reference> 73bd9362-4d5e-42b7-bdf1-e6e5b230245a
+  RTCaster: false
+  RTReceiver: false

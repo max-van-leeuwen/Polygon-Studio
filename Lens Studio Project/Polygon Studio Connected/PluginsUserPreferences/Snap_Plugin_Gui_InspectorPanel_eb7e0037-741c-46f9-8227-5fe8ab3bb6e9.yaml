@@ -1,0 +1,7 @@
+PinnedEntities:
+  type: "std::vector<Es::Uuid>"
+  value:
+    size: 1
+    values:
+      - 9860c7a9-7823-4060-b8d0-6fa0998b9671
+  options: 4

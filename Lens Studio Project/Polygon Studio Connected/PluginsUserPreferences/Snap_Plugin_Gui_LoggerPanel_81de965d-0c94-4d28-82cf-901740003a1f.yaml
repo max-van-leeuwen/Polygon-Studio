@@ -1,0 +1,35 @@
+clearOnReset:
+  type: bool
+  value: true
+  options: 4
+filterWildcard:
+  type: string
+  value: ""
+  options: 4
+fontSizeIncrease:
+  type: int
+  value: 0
+  options: 4
+groupMessages:
+  type: bool
+  value: true
+  options: 4
+messageOriginFlags:
+  type: int
+  value: 7
+  options: 4
+severitiesFilter:
+  type: intset
+  value:
+    size: 5
+    values:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+  options: 4
+timestampsVisible:
+  type: bool
+  value: true
+  options: 4

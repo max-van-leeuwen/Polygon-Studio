@@ -1,0 +1,118 @@
+- !<Material/07a37eb6-7cd3-4377-97c1-1383aa552928>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 86ea4a77-e673-497a-b1d7-761f8bff8ba6
+- !<PassInfo/86ea4a77-e673-497a-b1d7-761f8bff8ba6>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_221_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_76_DROPLIST_ITEM 0
+    - ENABLE_BASE_TEX
+    - ENABLE_NORMALMAP
+  BlendMode: Disabled
+  Properties:
+    Port_AO_N000:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Default_N094:
+      typeIdx: 1
+      value: 1.000000
+    Port_Import_N083:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N086:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N006:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N020:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.000000, z: 0.000000}
+    Port_Input1_N026:
+      typeIdx: 4
+      value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    Port_Input1_N029:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Input1_N099:
+      typeIdx: 1
+      value: 2.000000
+    Port_Multiplier_N105:
+      typeIdx: 1
+      value: 1.000000
+    Port_Opacity_N000:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N008:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N008:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N008:
+      typeIdx: 1
+      value: 0.000000
+    Port_Scale_N009:
+      typeIdx: 4
+      value: {x: 10.000000, y: 10.000000, z: 10.000000}
+    Port_Value_N011:
+      typeIdx: 1
+      value: 0.050000
+    Port_Value_N015:
+      typeIdx: 1
+      value: 10.000000
+    Port_Value_N016:
+      typeIdx: 1
+      value: 150.000000
+    Port_Value_N017:
+      typeIdx: 1
+      value: 0.050000
+    Port_Value_N019:
+      typeIdx: 1
+      value: 8.000000
+    Port_Value_N049:
+      typeIdx: 1
+      value: 0.200000
+    Port_Value_N084:
+      typeIdx: 1
+      value: 0.000100
+    Port_Value_N110:
+      typeIdx: 1
+      value: 0.200000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    snapToGridAnimDuration:
+      typeIdx: 1
+      value: 0.000000
+    snapToGridAnimTime:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> 8f622dd9-bcdb-441a-9527-7ddfb21955f4
+  RTCaster: false
+  RTReceiver: false

@@ -4,14 +4,18 @@
 <br>
 
 <br>
-<b>Polygon Studio is a low-poly 3D modeling tool for the Spectacles 😎</b>
+<b>Polygon Studio is a (multiplayer) low-poly 3D modeling tool for the Spectacles 😎</b>
 <br>
-Draw individual polygons with your hands in Augmented Reality, and invite friends to a multiplayer session to build together.
+Draw individual polygons with your hands in Augmented Reality, and build together with friends.
+<br> You can even export your creations as 3D files!
+<br>
 <br>
 The full project is open source, feel free to use parts of this project for your own work!
-<br>https://maxandliisi.com/polygon-studio
+<br>
 
-<br><br>
+https://maxandliisi.com/polygon-studio
+
+<br>
 The contents of this repo are:
 <br>
 
@@ -23,7 +27,7 @@ The contents of this repo are:
 
 
 <br><br>
-![Polygon Studio Preview]()
+![Polygon Studio Preview](https://github.com/max-van-leeuwen/Polygon-Studio/blob/main/Media/Polygon%20Studio%20Preview.gif)
 
 
 <br><br>

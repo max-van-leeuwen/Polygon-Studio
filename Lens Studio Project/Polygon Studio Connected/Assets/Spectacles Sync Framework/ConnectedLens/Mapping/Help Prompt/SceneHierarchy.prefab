@@ -1,0 +1,191 @@
+- !<ObjectPrefab/a4616693-efd2-4e21-bc0a-fa53334fafb9>
+  PackagePath: ""
+  objects:
+    - !<own> 74ac568c-bd42-4912-8818-7d9d15347758
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/10fd659b-f8d9-403e-b7c5-7f581eb881c6>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac4cce76-f94a-4f10-a269-c1d6e100fcb7
+- !<RenderMeshVisual/113e6f93-850c-4408-8bb2-e2fd3442737c>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7e823085-830d-470e-84a6-ac4580370667
+  Mesh: !<reference> 1da65c70-8837-442b-9f09-86dd490c8854
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    Key 1: 0.000000
+- !<ScriptComponent/12575395-185e-4c2c-9f51-029d58ae3e38>
+  PrefabRemaps:
+    []
+  Name: Fade
+  Enabled: false
+  ScriptAsset: !<reference> 3c4a32f6-1e04-4170-a11e-e21b52590dd9
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/2d6fcbd2-1d33-43a1-aeae-1826282178b5>
+  PrefabRemaps:
+    []
+  Name: Mesh
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: -2.300000, z: 0.000000}
+    rotation: {x: -90.000000, y: 90.000000, z: 90.000000}
+    scale: {x: 0.300000, y: 0.300000, z: 0.300000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 113e6f93-850c-4408-8bb2-e2fd3442737c
+    - !<own> 12575395-185e-4c2c-9f51-029d58ae3e38
+- !<SceneObject/74ac568c-bd42-4912-8818-7d9d15347758>
+  PrefabRemaps:
+    []
+  Name: Help Prompt
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d6fcbd2-1d33-43a1-aeae-1826282178b5
+    - !<own> 10fd659b-f8d9-403e-b7c5-7f581eb881c6
+  Components:
+    - !<own> b8af61ac-3f78-49a3-b2ca-173ada11910f
+    - !<own> ff67a75e-ea57-47f1-a4a9-e06af004a7af
+- !<Text/ac4cce76-f94a-4f10-a269-c1d6e100fcb7>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    Daria wants to join.
+    Show them the group’s start point.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> bffbb763-00a8-4695-9422-8bb02f3fdb83
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+    Enabled: true
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.500008}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Size: 0.400000
+  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+    Enabled: false
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+    Enabled: false
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 0.760000
+    CapitalizationOverride: None
+    CapitilizationOverride: None
+  DepthTest: false
+- !<ScriptComponent/b8af61ac-3f78-49a3-b2ca-173ada11910f>
+  PrefabRemaps:
+    []
+  Name: HeadlockController
+  Enabled: true
+  ScriptAsset: !<reference> 4a4ca1ca-966f-4e11-81aa-a96494a6856d
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.SceneObject> 4b3cda0d-6c7c-4826-9e81-3f5e85061559
+      cameraDistance: !<float> 70.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ff67a75e-ea57-47f1-a4a9-e06af004a7af>
+  PrefabRemaps:
+    []
+  Name: ObjectLocator
+  Enabled: true
+  ScriptAsset: !<reference> 76354ffc-5d31-4cc2-8626-d1274ea13c54
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      arrow: !<reference.RenderMeshVisual> 113e6f93-850c-4408-8bb2-e2fd3442737c
+      origin: !<reference.SceneObject> 3e7c2195-4744-4350-8fbf-f15a3dd72ded
+      object: !<reference.SceneObject> 032efba3-d5e6-4ce1-aa69-afce4396b7aa
+  ScriptTypes:
+    "":
+      {}

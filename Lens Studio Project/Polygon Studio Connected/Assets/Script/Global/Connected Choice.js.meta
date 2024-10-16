@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/81cc45b8-4101-43f3-96d8-e24b39157d18>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7cd0d892-2a70-498c-b74a-56040d200e58
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7cd0d892-2a70-498c-b74a-56040d200e58
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> b61c4d11-7951-4300-ae2a-9486bfc41204
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/67fec1ac-3e89-4678-884f-5b61fbb9c1f6>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b61c4d11-7951-4300-ae2a-9486bfc41204>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    colocatedParent: false
+    connected: false
+    connectedMenu: false
+    meshRenderer: false
+    multiPlayerButton: false
+    sessionController: false
+    singlePlayerButton: false
+    syncTransformScript: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - connected: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      connectedMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sessionController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      singlePlayerButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      multiPlayerButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      meshRenderer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colocatedParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      syncTransformScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      meshRendererSyncTransform: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

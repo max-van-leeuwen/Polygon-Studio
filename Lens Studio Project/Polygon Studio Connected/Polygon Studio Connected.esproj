@@ -1,0 +1,35 @@
+studioVersion:
+  major: 5
+  minor: 1
+  patch: 1
+  build: 24092500
+updateCheckpoint: 48
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+viewConfig:
+  simulation:
+    device: Spectacles (2024)
+    cameraFov: nan
+    fullFrameAspect: 0.666660
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Spectacles
+  cameraType: Front
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: Polygon Studio
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Back
+  lensClientCompatibilities:
+    - Spectacles
+  iconHash: a86865dc6158cf1fa944d20e0ac30a52
+  videoPreviewHash: cb50c34035f346ab7cef95416f2cede4
+  fromTemplateName: Default
+  fromTemplateUrl: Lens Studio 5.0.12.24051520
+  activationCamera: Rear
+  sourceMapEnabled: false

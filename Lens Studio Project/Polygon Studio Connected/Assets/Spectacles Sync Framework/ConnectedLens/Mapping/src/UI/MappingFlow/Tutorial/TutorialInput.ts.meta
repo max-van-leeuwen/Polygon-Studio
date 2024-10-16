@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/8e5423b6-7c62-4a1f-98c4-fde67e37075d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 286933f5-0963-4882-b2cc-462723a4642a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 286933f5-0963-4882-b2cc-462723a4642a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0af4ecbf-fb3f-4c8b-8908-8f0954905bd2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/9baf54b8-a500-400a-a7dd-46ddc23792d9>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0af4ecbf-fb3f-4c8b-8908-8f0954905bd2>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    connectedPlayerObject: false
+    headLockBehaviorInput: false
+    mainObject: false
+    root: false
+    tile: false
+    tutorialAnimationPlayer: false
+    tutorialGlasses: false
+    tutorialText: false
+    tutorialTitle: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - headLockBehaviorInput: !<MappingBased.HeadLockBehaviorInput> 00000000-0000-0000-0000-000000000000
+      tutorialAnimationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      connectedPlayerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tutorialGlasses: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tile: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      tutorialTitle: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      tutorialText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input HeadLockBehaviorInput headLockBehaviorInput
+    - // @input Component.AnimationPlayer tutorialAnimationPlayer
+    - // @input SceneObject root
+    - // @input SceneObject mainObject
+    - // @input SceneObject connectedPlayerObject
+    - // @input SceneObject tutorialGlasses
+    - // @input Component.RenderMeshVisual tile
+    - // @input Component.Text tutorialTitle
+    - // @input Component.Text tutorialText

@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/13b48a66-1126-4dbc-8263-c448c7b0bcea>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b23fe845-bf08-411f-8db3-378e2f2293d9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b23fe845-bf08-411f-8db3-378e2f2293d9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 88537146-1910-4a19-b388-e60cb6f6a812
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/70731893-f14c-4fb1-8f60-fecb3a4182f0>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/88537146-1910-4a19-b388-e60cb6f6a812>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 8495177d-5158-0087-c8a7-bb6592fc6fbe
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    animationLayerName: false
+    animationMixer: false
+    glowBlendshapeName: false
+    glowHover: false
+    glowIdle: false
+    glowRenderMeshVisual: false
+    glowTriggered: false
+    glowWeights: false
+    maxBlendShapeWeight: false
+    meshBlendshapeName: false
+    meshHover: false
+    meshIdle: false
+    meshTriggered: false
+    meshWeights: false
+    renderMeshVisual: false
+    useAnimations: false
+    useGlowMesh: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - renderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      maxBlendShapeWeight: !<float> 1.000000
+      useGlowMesh: true
+      glowRenderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      meshBlendshapeName: Pinch
+      meshWeights: false
+      meshIdle: !<float> 0.000000
+      meshHover: 0.330000
+      meshTriggered: 0.660000
+      glowBlendshapeName: Pinch
+      glowWeights: false
+      glowIdle: !<float> 0.000000
+      glowHover: 0.330000
+      glowTriggered: 0.660000
+      useAnimations: false
+      animationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
+      animationLayerName: BaseLayer
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/6c76416f-8b57-4137-8d29-70e0c057299c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8291b5c2-9aa0-4e39-a7b5-55b52b57034b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8291b5c2-9aa0-4e39-a7b5-55b52b57034b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> a67aca11-2743-420b-b522-43ba27682ae3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/42bb0bc4-ac9a-4481-81db-b72afeb2922f>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a67aca11-2743-420b-b522-43ba27682ae3>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    delayBeforeShowing: false
+    delayTime: false
+    displayTime: false
+    earlyFadeOutTime: false
+    fadeInTime: false
+    fadeOutTime: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - delayBeforeShowing: !<float> 4.000000
+      delayTime: !<float> 1.000000
+      fadeInTime: !<float> 1.000000
+      displayTime: !<float> 2.000000
+      fadeOutTime: !<float> 1.000000
+      earlyFadeOutTime: 0.300000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float delayBeforeShowing = "12.0" {"hint":"The delay in seconds before showing the progress bar (via alpha)"}'
+    - '// @input float delayTime = "1.0" {"hint":"The delay before the text starts to appear in seconds"}'
+    - '// @input float fadeInTime = "1.0" {"hint":"The duration in seconds for the text to gradually fade in (via alpha)"}'
+    - '// @input float displayTime = "3.0" {"hint":"The time in seconds during which the text is fully visible"}'
+    - '// @input float fadeOutTime = "1.0" {"hint":"The duration in seconds for the text to gradually fade out (via alpha)"}'
+    - '// @input float earlyFadeOutTime = "0.3" {"hint":"Timing used to shorten the fade-out time if the state needs to end earlier than expected in seconds"}'

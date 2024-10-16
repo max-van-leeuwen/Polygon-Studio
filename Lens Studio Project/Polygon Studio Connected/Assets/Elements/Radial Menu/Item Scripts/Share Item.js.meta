@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/61573d6e-f9a1-4a09-b76b-75d4c4bee6d5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> dc10680b-fbfd-4db9-85ba-b72b3a9a079a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> dc10680b-fbfd-4db9-85ba-b72b3a9a079a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 83290530-b7c9-43f0-a98c-0cb85ade6175
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/68117ba6-ee0e-4a93-a0af-ac11ebcdcee3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/83290530-b7c9-43f0-a98c-0cb85ade6175>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    removeModeVisuals: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - smoke1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      smoke2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      smoke3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      doorRotationAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      removeModeVisuals: !<reference.RenderMeshVisual[]>
+        []
+  ScriptTypes:
+    -
+      {}

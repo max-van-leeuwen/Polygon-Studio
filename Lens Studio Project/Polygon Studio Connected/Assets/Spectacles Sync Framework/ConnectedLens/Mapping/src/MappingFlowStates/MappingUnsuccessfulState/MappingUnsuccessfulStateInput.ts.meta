@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/3a24aed8-3846-45db-b969-7cafad0f310e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0f71212b-a608-4a6d-8846-79aa55992cb4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0f71212b-a608-4a6d-8846-79aa55992cb4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> e4f509c0-6772-455c-86c4-0bb9cae98f8c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/5be1b6fa-017f-4086-a48a-2889bd226a1f>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e4f509c0-6772-455c-86c4-0bb9cae98f8c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    alignUnsuccessfulNotification: false
+    mappingUnsuccessfulNotification: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - mappingUnsuccessfulNotification: !<MappingBased.MappingUnsuccessfulNotificationInput> 00000000-0000-0000-0000-000000000000
+      alignUnsuccessfulNotification: !<MappingBased.MappingUnsuccessfulNotificationInput> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input MappingUnsuccessfulNotificationInput mappingUnsuccessfulNotification
+    - // @input MappingUnsuccessfulNotificationInput alignUnsuccessfulNotification

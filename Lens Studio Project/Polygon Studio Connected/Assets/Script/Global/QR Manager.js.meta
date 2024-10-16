@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/004573cb-8310-4e36-a740-282bdab6b0d8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 050d35c7-567d-4ad0-b39c-c70474d37f0b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 050d35c7-567d-4ad0-b39c-c70474d37f0b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> df5693cc-831f-4a05-9d0f-a9a0a9da793c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/476c2314-7671-4321-9453-4af0fd5185e4>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/df5693cc-831f-4a05-9d0f-a9a0a9da793c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    followingUser: false
+    loadingScreen: false
+    qrRenderer: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - qrRenderer: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      loadingScreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      qrInstructions: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endMessage: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      instructionsExitButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      recordingStartButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      followingUser: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

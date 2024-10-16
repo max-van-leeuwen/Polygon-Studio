@@ -1,0 +1,167 @@
+- !<Material/855f3a3f-0876-4c94-a31a-a65496dbbcf7>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 362de8ba-35ce-4705-a7e2-8ad6682636ae
+- !<PassInfo/362de8ba-35ce-4705-a7e2-8ad6682636ae>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N007:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Center_N023:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Center_N047:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Import_N025:
+      typeIdx: 3
+      value: {x: 0.100000, y: 0.100000}
+    Port_Import_N038:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Port_Import_N039:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N058:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Import_N060:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input0_N066:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N018:
+      typeIdx: 1
+      value: 0.020000
+    Port_Input1_N021:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N065:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N066:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N065:
+      typeIdx: 1
+      value: 1.000000
+    Port_Offset_N003:
+      typeIdx: 3
+      value: {x: 0.340000, y: 0.000000}
+    Port_Offset_N022:
+      typeIdx: 3
+      value: {x: 0.150000, y: 0.000000}
+    Port_Position1_N000:
+      typeIdx: 1
+      value: 0.490000
+    Port_Position1_N001:
+      typeIdx: 1
+      value: 0.450000
+    Port_Position2_N000:
+      typeIdx: 1
+      value: 0.710000
+    Port_Position2_N001:
+      typeIdx: 1
+      value: 0.750000
+    Port_RangeMaxA_N033:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N033:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N033:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N033:
+      typeIdx: 1
+      value: -1.000000
+    Port_Rotation_N007:
+      typeIdx: 1
+      value: 180.000000
+    Port_Rotation_N023:
+      typeIdx: 1
+      value: 35.000000
+    Port_Value0_N000:
+      typeIdx: 4
+      value: {x: 0.843137, y: 0.847059, z: 0.847059}
+    Port_Value0_N001:
+      typeIdx: 5
+      value: {x: 0.133333, y: 0.137255, z: 0.141176, w: 1.000000}
+    Port_Value1_N000:
+      typeIdx: 4
+      value: {x: 0.364706, y: 0.368627, z: 0.368627}
+    Port_Value1_N001:
+      typeIdx: 5
+      value: {x: 0.258824, y: 0.262745, z: 0.266667, w: 1.000000}
+    Port_Value2_N000:
+      typeIdx: 4
+      value: {x: 0.376471, y: 0.380392, z: 0.380392}
+    Port_Value2_N001:
+      typeIdx: 5
+      value: {x: 0.168627, y: 0.172549, z: 0.176471, w: 1.000000}
+    Port_Value2_N014:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value3_N000:
+      typeIdx: 4
+      value: {x: 0.588235, y: 0.588235, z: 0.588235}
+    Port_Value3_N001:
+      typeIdx: 5
+      value: {x: 0.129412, y: 0.133333, z: 0.137255, w: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    PreviewNodeID:
+      typeIdx: 0
+      value: 0
+    notification_outline_lightness:
+      typeIdx: 1
+      value: 1.000000
+    notification_outline_mask:
+      typeIdx: 9
+      value:
+        id: 73f28699-03fd-42c1-a4a0-b77d7221ec0d
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    notification_outline_maskBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    notification_outline_maskDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    notification_outline_maskTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    notification_outline_maskUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    notification_tile_lightness:
+      typeIdx: 1
+      value: 1.000000
+    notification_tile_opacity:
+      typeIdx: 1
+      value: 1.000000
+  Pass: !<reference> 29e38eb7-6ef8-4d94-a99e-5846f804a1b3

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/a09d430b-18dd-4972-92ce-fa201956dde0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 013b1a92-6185-422c-b76f-0432b75d8336
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 013b1a92-6185-422c-b76f-0432b75d8336
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5e98574b-e720-4ba2-b86a-232da625ef8d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/98bf59cc-837f-4ee8-bb27-21923c8d82b7>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5e98574b-e720-4ba2-b86a-232da625ef8d>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    mappingSuccessfullyDoneText: false
+    root: false
+    successAudioTrack: false
+    tickAnimation: false
+    tickMeshVisual: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mappingSuccessfullyDoneText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      successAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      tickMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      tickAnimation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject root
+    - // @input Component.Text mappingSuccessfullyDoneText
+    - // @input Asset.AudioTrackAsset successAudioTrack
+    - // @input Component.RenderMeshVisual tickMeshVisual
+    - // @input SceneObject tickAnimation

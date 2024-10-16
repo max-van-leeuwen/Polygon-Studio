@@ -1,0 +1,36 @@
+- !<AssetImportMetadata/28202b3f-12a7-48bc-9c6e-522dc5d9e04a>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 87b8df15-d2a4-41c9-94af-964dcb8beb5f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 87b8df15-d2a4-41c9-94af-964dcb8beb5f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> df30d0db-3fb9-4d5d-943f-af98f8328b1e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f614eb75-047a-4c4f-a0c9-f91c9221a955>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/df30d0db-3fb9-4d5d-943f-af98f8328b1e>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cursorDot: false
+    sikInteractorCursors: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - cursorDot: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      sikInteractorCursors: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,7 +1,10 @@
 # Polygon Studio Export Tool
+by Max van Leeuwen
 
-For the QR-to-PLY converter mentioned at: https://maxandliisi.com/polygon-studio
-<br>Uses Three.JS for live mesh previewing 🐬
+<br>
+
+QR-to-PLY converter from https://maxandliisi.com/polygon-studio
+<br>Including 3D mesh preview (using Three.JS)! 🐬
 
 Setup:
 1. install parcel: npm install parcel -g

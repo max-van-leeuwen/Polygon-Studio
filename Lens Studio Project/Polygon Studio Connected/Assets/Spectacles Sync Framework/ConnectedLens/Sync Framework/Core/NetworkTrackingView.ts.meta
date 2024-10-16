@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/0442c3fd-5ee0-43f4-abbb-b17d82267935>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5be5bf14-5f02-4466-93ea-4cd2a22735ce
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5be5bf14-5f02-4466-93ea-4cd2a22735ce
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> fef5cf3e-8397-4795-b38d-ed5495938c04
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d634cc81-0ae1-4ff4-97fb-5d1dcfedc409>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fef5cf3e-8397-4795-b38d-ed5495938c04>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    messageText: false
+    networkTracking: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - networkTracking: !<MappingBased.NetworkTracking> 00000000-0000-0000-0000-000000000000
+      messageText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input NetworkTracking networkTracking
+    - // @input Component.Text messageText

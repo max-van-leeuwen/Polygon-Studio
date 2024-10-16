@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/447e86e8-9998-42ca-b866-09afc0afa99d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0d095c56-8b20-46f3-959b-887bf554e4c2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0d095c56-8b20-46f3-959b-887bf554e4c2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> ec979b3d-a51a-4761-acf0-37bad193fd5c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/e560e873-c672-435a-a39b-84f84039154a>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ec979b3d-a51a-4761-acf0-37bad193fd5c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    joiningStateInput: false
+    mappingStateInput: false
+    mappingSuccessfulStateInput: false
+    mappingUnsuccessfulStateInput: false
+    spinner: false
+    teachingJoinedUserStateInput: false
+    waitingForMappingStateInput: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - mappingStateInput: !<MappingBased.MappingStateInput> 00000000-0000-0000-0000-000000000000
+      mappingSuccessfulStateInput: !<MappingBased.MappingSuccessfulStateInput> 00000000-0000-0000-0000-000000000000
+      mappingUnsuccessfulStateInput: !<MappingBased.MappingUnsuccessfulStateInput> 00000000-0000-0000-0000-000000000000
+      joiningStateInput: !<MappingBased.JoiningStateInput> 00000000-0000-0000-0000-000000000000
+      teachingJoinedUserStateInput: !<MappingBased.TeachingJoinedUserStateInput> 00000000-0000-0000-0000-000000000000
+      waitingForMappingStateInput: !<MappingBased.WaitingForMappingStateInput> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input MappingStateInput mappingStateInput
+    - // @input MappingSuccessfulStateInput mappingSuccessfulStateInput
+    - // @input MappingUnsuccessfulStateInput mappingUnsuccessfulStateInput
+    - // @input JoiningStateInput joiningStateInput
+    - // @input TeachingJoinedUserStateInput teachingJoinedUserStateInput
+    - // @input WaitingForMappingStateInput waitingForMappingStateInput
+    - // @input SceneObject spinner

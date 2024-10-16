@@ -1,0 +1,29 @@
+- !<NativePackageDescriptor/434310b5-9300-4cc6-ab9f-625105fbcd12>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 1
+    patch: 1
+    build: 24090303
+    type: Unset
+  Description: ""
+  SvgIcon: ""
+  InternalVersion: 3
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 3
+  UpdateCheckpoint: 48
+  ExportUid: b8a4160c-e0e3-4613-a1b5-3bc1f9626715
+  ComponentUid: 1e0f3410-8d24-44c9-aa7d-7ffcb98af7a6
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure/00000000-0000-0000-0000-000000000000>
+    Name: Spectacles Sync Framework
+    AssetId: 0XehoMMtmaPbUp7jwAf0d
+    Hash: c1229d17b4b5ec06a252ee1558b4f20b
+    Version:
+      major: 1
+      minor: 0
+      patch: 1
+      build: 0

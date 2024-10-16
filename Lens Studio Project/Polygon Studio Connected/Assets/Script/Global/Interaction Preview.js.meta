@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/e08bf949-84e7-433c-a8ea-a1097dab8a55>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ae246ea4-b9be-4aef-a9d0-9480f4f89a6f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ae246ea4-b9be-4aef-a9d0-9480f4f89a6f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 9dd550ff-4527-4ecd-a753-9d2d0f280c7b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/89e600d0-c6e6-4f81-9a1e-4b868616cbf3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/9dd550ff-4527-4ecd-a753-9d2d0f280c7b>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    faceRMV: false
+    lineMat: false
+    lineVisualizer: false
+    pointVisualizer: false
+    scalingLineMat: false
+    scalingLineVisualizer: false
+    triangleRMV: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pointVisualizer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineVisualizer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      faceVisualizer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      triangleRMV: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      faceRMV: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      scalingLine: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      scalingLineMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      scalingLineVisualizer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

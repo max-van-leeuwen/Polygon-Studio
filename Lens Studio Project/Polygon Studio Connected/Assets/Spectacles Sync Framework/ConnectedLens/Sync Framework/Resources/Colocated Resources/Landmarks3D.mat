@@ -1,0 +1,88 @@
+- !<Material/44b4fafd-553f-48f8-bc06-0fe2c3834093>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 2e46262a-8be9-4848-9a6c-71a0722c9896
+- !<PassInfo/2e46262a-8be9-4848-9a6c-71a0722c9896>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N000:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N000:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input1_N041:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Input1_N045:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N046:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N099:
+      typeIdx: 3
+      value: {x: 2.000000, y: 2.000000}
+    Port_Input1_N105:
+      typeIdx: 1
+      value: 1.000000
+    Port_Multiplier_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_Opacity_N000:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N085:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinB_N085:
+      typeIdx: 1
+      value: 0.000000
+    Port_Scale_N083:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N000:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Value2_N100:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value_N001:
+      typeIdx: 1
+      value: 0.103000
+    Port_Value_N002:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value_N044:
+      typeIdx: 1
+      value: 1.250000
+    Port_Value_N073:
+      typeIdx: 1
+      value: 0.800000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.988205, z: 0.000000, w: 1.000000}
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> c680b2f2-4d1a-451c-9632-6a7b19c2ccdc
+  RTCaster: false
+  RTReceiver: false

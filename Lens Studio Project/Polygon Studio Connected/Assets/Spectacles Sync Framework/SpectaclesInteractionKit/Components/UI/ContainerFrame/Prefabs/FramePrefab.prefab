@@ -1,0 +1,60 @@
+- !<ObjectPrefab/dc6f7b73-f01e-4a27-8735-83ca0efe39a2>
+  PackagePath: ""
+  objects:
+    - !<own> 46d1e0d5-9075-419c-a585-10620d241b00
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/09edbf00-25ca-4073-bfa8-e3eec0a5559c>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box/00000000-0000-0000-0000-000000000000>
+    FitVisual: false
+    Size: {x: 1.000000, y: 1.000000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/46d1e0d5-9075-419c-a585-10620d241b00>
+  PrefabRemaps:
+    []
+  Name: FramePrefab
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 09edbf00-25ca-4073-bfa8-e3eec0a5559c
+    - !<own> cc958f4e-7a70-4fac-8e61-7f49f28380c1
+- !<RenderMeshVisual/cc958f4e-7a70-4fac-8e61-7f49f28380c1>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8875f14d-c7ce-40b9-9959-219db59b946c
+  Mesh: !<reference> 85d777e5-2455-4798-a129-f38fefb98171
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

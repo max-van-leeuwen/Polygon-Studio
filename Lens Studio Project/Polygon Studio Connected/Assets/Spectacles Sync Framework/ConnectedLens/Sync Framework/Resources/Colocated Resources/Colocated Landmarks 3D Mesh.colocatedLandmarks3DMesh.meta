@@ -1,0 +1,15 @@
+- !<AssetImportMetadata/091f5627-3ffa-4daf-8f90-479f21ede602>
+  ImportedAssetIds:
+    ColocatedLandmarks3DMesh: !<reference> cb4dc3e3-83d0-4f67-ae05-de089a3fbd1e
+  ImporterName: ColocatedLandmarks3DMeshImporter
+  PrimaryAsset: !<reference> cb4dc3e3-83d0-4f67-ae05-de089a3fbd1e
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings/89ec9931-ff60-4ded-8383-4d4fa527ed93>
+    {}
+  AssetDataMap:
+    ColocatedLandmarks3DMesh: !<own> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000

@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/41d88d60-b961-47f1-bd3e-833930664d9a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c610d881-f802-4e83-8a2c-457e11630a38
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c610d881-f802-4e83-8a2c-457e11630a38
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 56f5d8fa-660b-4fe9-a43a-24a6924bc19f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/87579d13-68e6-4d5c-9e19-4c615f57d604>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/56f5d8fa-660b-4fe9-a43a-24a6924bc19f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    disabledMaterial: false
+    meshVisuals: false
+    toggledOffMaterial: false
+    toggledOffSelectMaterial: false
+    toggledOnMaterial: false
+    toggledOnSelectMaterial: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - toggledOffMaterial: !<reference.Material> 1b8ece01-713b-41f1-a181-2433191933f8
+      toggledOffSelectMaterial: !<reference.Material> c1763eaa-35d9-4991-9fa8-79d760837786
+      toggledOnMaterial: !<reference.Material> c31230c2-59b1-4ab7-b5c4-e8b3f40e7f84
+      toggledOnSelectMaterial: !<reference.Material> b8285666-78b6-4db2-ba6b-5c79324bda78
+      disabledMaterial: !<reference.Material> f452829f-3f46-4d7c-b9db-374f1dce77b5
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.Material toggledOffMaterial
+    - // @input Asset.Material toggledOffSelectMaterial
+    - // @input Asset.Material toggledOnMaterial
+    - // @input Asset.Material toggledOnSelectMaterial
+    - // @input Asset.Material disabledMaterial
+    - "// @input Component.RenderMeshVisual[] meshVisuals"
