@@ -1240,7 +1240,7 @@ export class ContainerFrame extends BaseScriptComponent {
   }
 
   /**
-   * @param isFollowing enable or disable the following button and defualt behavior ( if it is enabled )
+   * @param isFollowing enable or disable the following button and default behavior ( if it is enabled )
    */
   setIsFollowing = (isFollowing: boolean): void => {
     this.isFollowing = isFollowing
